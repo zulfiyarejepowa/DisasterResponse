@@ -1,0 +1,78 @@
+.Categories {
+    padding-top: 100px;
+    padding-bottom: 200px;
+    display: flex;
+    gap: 20%;
+}
+
+.CategoryInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+}
+
+.CategoryText {
+    font-family: sans-serif;
+    font-size: 40px;
+    color: #1f1f5c;
+}
+
+.CategoryBlocks {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 10%;
+}
+
+.CategoryBlock {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: sans-serif;
+    font-size: 24px;
+    border-bottom: 1px solid #D6D6D6;
+    // border-top: 1px solid #D6D6D6;
+    padding: 5% 0;
+    width: 300px;
+}
+
+.Icon {
+    width: 60px;
+    padding-bottom: 15%;
+}
+
+.CategoryBlockText {
+    font-size: 16px;
+}
+
+.CategoryInfoButton {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    background: inherit;
+    border: 1px solid #E86263;
+    border-radius: 10px;
+    padding: 5% 20%;
+
+    a {
+        text-decoration: none;
+        color: #E86263;
+        font-family: sans-serif;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .Categories {
+        display: flex;
+        flex-direction: column-reverse;
+
+        .CategoryInfo {
+            text-align: center;
+            padding-top: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}

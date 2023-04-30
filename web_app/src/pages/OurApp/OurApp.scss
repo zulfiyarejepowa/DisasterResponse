@@ -1,0 +1,50 @@
+.OurApp{
+    padding: 20px 0px 100px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    h1{
+        font-size: 44px;
+    }
+    .logo{
+        img{
+            width: 400px;
+        }
+    }
+    span{
+        color: #E86263;
+    }
+    p{
+        color: #1F1F5C;
+        max-width: 400px;
+    }
+    button{
+        margin-top: 30px;
+        color: #f1f1f1;
+        border: none;
+        font-size: 22px;
+        background-color: #E86263;
+        border-radius: 5px;
+        width:200px;
+        height: 50px;
+    }
+
+}
+@media screen and (max-width: 400px){
+    .OurApp{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        h1{
+            font-size: 32px;
+        }
+        .logo{
+            img{
+                width: 250px;
+            }
+        }
+    }
+
+}

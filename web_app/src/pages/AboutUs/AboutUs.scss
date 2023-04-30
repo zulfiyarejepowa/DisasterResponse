@@ -1,0 +1,36 @@
+.aboutUs {
+    display: flex;
+    background-image: url("../../assets/Group\ 55.png");
+  background-repeat: no-repeat;
+    flex-direction: row;
+    gap: 10%;
+    align-items: center;
+    padding: 5% 0;
+    img{
+        width: 200px;
+    }
+}
+
+.aboutUsText {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex-wrap: wrap;
+    .text1 {
+        font-size: 24px;
+        color: #E86263;
+    }
+    .text2, .text3 {
+        font-size: 20px;
+    }
+    b {
+        color: #17797c;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .aboutUs {
+        flex-direction: column;
+        gap: 30px;
+    }
+}

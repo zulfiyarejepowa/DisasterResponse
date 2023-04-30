@@ -1,0 +1,84 @@
+.Footer {
+    border-top: 1px solid #D6D6D6;
+    background-color: #f1f1f1;
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15%;
+    padding: 1% 0;
+    .FooterLogo{
+
+        img {
+            width: 150px;
+            border-radius: 50%;
+        }
+    }
+}
+
+
+.FooterNav,
+.FooterApps,
+.FooterButtons {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+}
+
+.FooterNav>ul,
+.FooterApps {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: #1F1F5C;
+}
+
+li {
+    list-style: none;
+
+    a {
+        text-decoration: none;
+        color: #1F1F5C;
+        font-size: 18px;
+    }
+}
+
+.FooterApps>p {
+    font-size: 18px;
+}
+
+.CategoryInfoButton {
+    width: 150px;
+}
+
+.EndOfSite {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin-bottom: 5px;
+    border-top: 1px solid #D6D6D6;
+    border-bottom: 1px solid #D6D6D6;
+
+    p {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+
+    .FooterNav>ul,
+    .FooterApps li {
+        a {
+            font-size: 16px;
+        }
+    }
+
+    .EndOfSite>p,
+    .FooterApps>p {
+        font-size: 16px;
+    }
+}

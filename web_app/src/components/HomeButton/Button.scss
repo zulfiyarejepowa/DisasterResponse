@@ -1,0 +1,36 @@
+.home-button {
+    background-color: #f1f1f1;
+    border: solid 1px #D6D6D6;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    padding: 5px 10px;
+    p {
+        font-size: 14px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    img {
+        padding: 5px 5px;
+        width: 40px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .home-button {
+
+        img {
+            width: 25px;
+            padding: 5px 5px;
+        }
+        p{
+            font-size: 10px;
+        }
+        h3{
+            font-size: 14px;
+        }
+    }
+}
